@@ -6382,4 +6382,26 @@ button.close {
 #containershit {
   width: 589px;
 }
+.board-container-left{
+  height: 148px;
+  width: 430px;
+  background-color: red;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 15px;
+
+
+}
+.board-container-right{
+   height: 148px;
+   width: 430px;
+  background-color: blue;
+  float: right;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 15px;
+
+
+}
 /*# sourceMappingURL=bootstrap.css.map */
