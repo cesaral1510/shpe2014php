@@ -6404,4 +6404,16 @@ button.close {
 
 
 }
+
+/* CSS for Opportunities Page */
+.opp-list{
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.opp-body{
+  background-color: EDEDF3;
+}
 /*# sourceMappingURL=bootstrap.css.map */
