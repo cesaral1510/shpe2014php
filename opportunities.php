@@ -17,15 +17,16 @@
 
     
       <div id ="newsthing">
-        <h1><center>News</center></h1>
-        <hr>
+        
         
         <div class="list-group container-fluid col-lg-9 col-md-9 col-sm-9 col-xs-9 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="opp-list">
+            <h1><center>News</center></h1>
+            <hr>
             <div class="panel-heading" role="tab" id="headingOne">
               <h3 class="panel-title">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <h3><img src="#"> Name of Internship</h3>
+                  <h3 class="title-opp"><img src="#"> Name of Internship</h3>
                 </a>
               </h3>
             </div>
@@ -41,7 +42,7 @@
             <div class="panel-heading" role="tab" id="headingTwo">
               <h4 class="panel-title">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <h3><img src="#"> Name of Internship</h3>
+                  <h3 class="title-opp"><img src="#"> Name of Internship</h3>
                 </a>
               </h4>
             </div>
@@ -57,7 +58,7 @@
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                 <h3><img src="#"> Name of Internship</h3>
+                 <h3 class="title-opp"><img src="#"> Name of Internship</h3>
                 </a>
               </h4>
             </div>

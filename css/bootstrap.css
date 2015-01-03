@@ -6414,6 +6414,15 @@ button.close {
 }
 
 .opp-body{
-  background-color: EDEDF3;
+  background-color: #BBBBBB;
 }
+
+.title-opp{
+  text-decoration: none;
+}
+
+h3 .title-opp:hover{
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
