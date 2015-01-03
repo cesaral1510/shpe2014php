@@ -22,7 +22,7 @@ echo '<nav class="navbar navbar-default" role="navigation">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">E-Board <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Current E-Board</a></li>
+            <li><a href="http://web.njit.edu/~cal23/shpe2014/eboard.php">Current E-Board</a></li>
             <li class="divider"></li>
             <li><a href="#">Advisors</a></li>
           </ul>
