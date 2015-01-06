@@ -6432,19 +6432,6 @@ font-size: 21px;
   color: #2e73b3;
 }
 
-
-/* CSS for Opportunities Page */
-.opp-list{
-  position: relative;
-  display: block;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
-.opp-body{
-  background-color: #EDEDF3;
-}
-
 #socialiconsbox {
 margin: 10px 0;
 }
