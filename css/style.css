@@ -1,0 +1,15 @@
+/* CSS for Opportunities Page */
+.opp-list{
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.opp-body{
+  background-color: #eaeaea;
+}
+
+.title{
+	color:#005e8e;
+}
