@@ -15,7 +15,7 @@
   	<?php include 'navbar.php';?>
       <!-- =======================================Start Accordian ============================================-->
       <div class="well list-group" id="accordion" role="tablist" aria-multiselectable="true">
-        <h1 class="title"><center>Opportunities </center></h1>
+        <h1 class="title">Opportunities</h1>
         <hr>
         <div class="opp-list">
           <div class="panel-heading" role="tab" id="headingOne">
