@@ -6365,7 +6365,7 @@ button.close {
   background-color: #fefefe;
 }
 #newsthing h1 {
-  color: #2e73b3;
+  color: #005e8e;
 }
 #dropavisit h3 {
   color: #2e73b3;
@@ -6384,6 +6384,9 @@ button.close {
 }
 
 /* CSS for Eboard page */
+.board{
+  height: 2000px;
+}
 .board-container-left{
   height: 148px;
  
@@ -6399,29 +6402,12 @@ button.close {
 .board-container-left  img{
   float: left;
   height: 130px;
+  width: 123px;
   border-radius: 75px;
   margin-left: 24px;
   margin-top: 10px;
 }
-.board-container-right  img{
-  float: left;
-  height: 130px;
-  border-radius: 75px;
-  margin-left: 24px;
-  margin-top: 10px;
-}
-.board-container-right{
-   height: 148px;
-   width: 430px;
-   background-color: #f5f5f5;
-  float: right;
-  padding: 0px;
-  margin: 0px;
-  border-radius: 15px;
-  margin-top: 10px;
 
-
-}
 .info_eboard{
   margin-top: 10px;
  line-height: 18px;
@@ -6429,7 +6415,7 @@ padding-left: 162px;
 font-size: 21px;
 }
 .title_eboard{
-  color: #2e73b3;
+  color: #0e90ff;
 }
 
 
