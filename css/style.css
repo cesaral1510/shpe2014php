@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS for Opportunities Page */
 .opp-list{
   position: relative;
@@ -36,4 +37,15 @@
 
 .left{
 	margin-right: 10%;
+=======
+#mainContent {
+	width:980;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+.titles{
+	color:#005F86;
+>>>>>>> jose
 }
