@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS for Opportunities Page */
 .opp-list{
   position: relative;
@@ -36,6 +37,7 @@
 
 .left{
 	margin-right: 10%;
+<<<<<<< HEAD
 }
 
 /* CSS for History Page */
@@ -49,4 +51,17 @@
 
 .titles{
 	color:#005F86;
+=======
+=======
+#mainContent {
+	width:980;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+.titles{
+	color:#005F86;
+>>>>>>> jose
+>>>>>>> b30f239a336b98d8b6a82e9287c0004e72bd26c4
 }
