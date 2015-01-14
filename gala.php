@@ -33,7 +33,7 @@
           <h3 class="col-lg-5">Profressionals</h3>
           <div class="row">
             <div class="shadow-rectangle-box col-lg-4 col-lg-offset-1">
-              <div class="col-lg-5">
+              <div class="left col-lg-5">
                 <h3>Individual</h3>
                 <br>
                 <h5>$60</h5>
@@ -44,9 +44,9 @@
                 <h5>$600</h5>
               </div>
             </div>
-            
+            <div class="col-lg-1"></div>
             <div class="shadow-rectangle-box col-lg-4">
-              <div class="col-lg-5">
+              <div class="left col-lg-5">
                 <h3>Professional</h3>
                 <br>
                 <h5>$60</h5>
@@ -60,13 +60,13 @@
           </div>
           <!-- =======================================End Row ============================================-->
           <div class="row">
-            <h3 class="col-lg-5">Students/Guests</h3>
+            <h3 class="col-lg-5 col-lg-offset-1">Students/Guests</h3>
             <h3 class="col-lg-5">SHPE Jr.</h3>
           </div>
-          <div class="">
-            <div class="col-lg-5 col-lg-offset-1">
 
-              <div class="col-lg-5">
+          <div class="">
+            <div class="shadow-rectangle-box col-lg-4 col-lg-offset-1">
+              <div class="left col-lg-5">
                 <h3>Early Bird</h3>
                 <br>
                 <h5>$60</h5>
@@ -78,7 +78,9 @@
               </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-1"></div>
+
+            <div class="shadow-rectangle-box col-lg-4">
               <div class="col-lg-5">
                 <h3>Students</h3>
                 <br>
