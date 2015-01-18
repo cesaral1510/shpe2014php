@@ -18,7 +18,7 @@
       <h1 class="title">Gala Banquet</h1>
       <hr>
 
-      <h2><center>You're Invited!!</center></h2>
+      <h2 class="titles"><center>You're Invited!!</center></h2>
       <p><center>Join us on April 19, 2015 at 6pm for the 23rd Annual Gala Banquet held at Iberia's Tavern
         and Restaurant. We will honor the achievements of this past academic year's Executive Board and the 
         corporate companies that have helped us through sponsorship, mentorship, and leading workshops. Enjoy
@@ -33,28 +33,26 @@
           <h3 class="col-lg-5">Profressionals</h3>
           <div class="row">
             <div class="shadow-rectangle-box col-lg-4 col-lg-offset-1">
-              <div class="left col-lg-5">
+              <div class="col-lg-5">
                 <h3>Individual</h3>
-                <br>
-                <h5>$60</h5>
+                <h3 class="titles">$60</h3>
               </div>
-              <div class="right col-lg-5">
+              <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
+              <div class="col-lg-5">
                 <h3>Table</h3>
-                <br>
-                <h5>$600</h5>
+                <h3 class="titles">$600</h3>
               </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="shadow-rectangle-box col-lg-4">
+            <div class="shadow-rectangle-box col-lg-5">
               <div class="left col-lg-5">
                 <h3>Professional</h3>
-                <br>
-                <h5>$60</h5>
+                <h3 class="titles">$60</h3>
               </div>
+              <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
               <div class="right col-lg-5">
                 <h3>Corporate Table</h3>
-                <br>
-                <h5>$600</h5>
+                <h3 class="titles">$600</h3>
               </div>
             </div>
           </div>
@@ -66,15 +64,14 @@
 
           <div class="">
             <div class="shadow-rectangle-box col-lg-4 col-lg-offset-1">
-              <div class="left col-lg-5">
-                <h3>Early Bird</h3>
-                <br>
-                <h5>$60</h5>
+              <div class="col-lg-5">
+                <h3>EarlyBird</h3>
+                <h3 class="titles">$60</h3>
               </div>
-              <div class="right col-lg-5">
+              <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
+              <div class="col-lg-5">
                 <h3>Standard</h3>
-                <br>
-                <h5>$600</h5>
+                <h3 class="titles">$600</h3>
               </div>
             </div>
 
@@ -83,13 +80,12 @@
             <div class="shadow-rectangle-box col-lg-4">
               <div class="col-lg-5">
                 <h3>Students</h3>
-                <br>
-                <h5>$60</h5>
+                <h3 class="titles">$60</h3>
               </div>
-              <div class="right col-lg-5">
+              <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
+              <div class="col-lg-5">
                 <h3>Parents</h3>
-                <br>
-                <h5>$600</h5>
+                <h3 class="titles">$600</h3>
               </div>
             </div>
           </div>
