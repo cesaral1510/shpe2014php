@@ -45,12 +45,12 @@
             </div>
             <div class="col-lg-1"></div>
             <div class="shadow-rectangle-box col-lg-5">
-              <div class="left col-lg-5">
+              <div class="col-lg-5">
                 <h3>Professional</h3>
                 <h3 class="titles">$60</h3>
               </div>
               <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
-              <div class="right col-lg-5">
+              <div class="col-lg-5">
                 <h3>Corporate Table</h3>
                 <h3 class="titles">$600</h3>
               </div>
