@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #mainContent {
 	width:980;
 	margin:auto;
@@ -120,3 +121,56 @@
 	right:-5px;
 	opacity:.5;
 }
+=======
+/* CSS for Opportunities Page */
+.opp-list{
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.opp-body{
+  background-color: #eaeaea;
+}
+
+.title{
+	color:#005e8e;
+}
+
+.well{
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* CSS for Gala Page */
+
+.shadow-rectangle-box{
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 2px 2px 1px #888888;
+
+}
+
+.divider{
+	max-height: 80px;
+	margin-top: 3%;
+	margin-left: 10%;
+	float:left;
+}
+/* CSS for History Page */
+
+#mainContent {
+	width:980;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+.titles{
+	color:#005F86;
+}
+
+}
+>>>>>>> 7c250eba234050b70ded907355ee4be894ca7dcb
