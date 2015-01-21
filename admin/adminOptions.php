@@ -90,7 +90,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">DSHairSensation</a>
+          <a class="navbar-brand" href="#">NJIT SHPE</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -122,12 +122,12 @@
 	</div>
 	<!-- Large modal -->
 	<div class="btn-group btn-group-lg" role="group">
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">Manage Pictures</button>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">Manage Testimonials</button>
 	</div>
 		<div id="2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<?php include "Partials/managePictures.php"; ?>
+				<?php include "Partials/manageTestimonials.php"; ?>
 			</div>
 		  </div>
 		</div>
@@ -163,14 +163,20 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Large modal -->
+	<div class="btn-group btn-group-lg" role="group">
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#6">Manage Users</button>
+	</div>
+		<div id="3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<?php include "Partials/manageUsers.php"; ?>
+			</div>
+		  </div>
+		</div>
+
 	</center>
-	<script type="text/javascript">
-		$('.timepicker').timepicker({
-			minuteStep: 5,
-			showInputs: false,
-			disableFocus: true
-		});
-	</script>
   </body>
 	<?php
 	}

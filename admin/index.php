@@ -4,10 +4,11 @@
 		$pw = hash('sha512', $_POST['Password']);
 
 		/* Authorize the user*/
-		$ch = curl_init("http://web.njit.edu/~jag33/DSHairSensation/Scripts/checkLogin.php");
+		$ch = curl_init("https://web.njit.edu/~jag33/DSHairSensation/Scripts/checkLogin.php");
 		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, "user=$un&pass=$pw");
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		$result = rtrim(curl_exec($ch));
 		if(curl_errno($ch)){
 			echo 'Curl error: ' . curl_error($ch);

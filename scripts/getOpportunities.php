@@ -19,7 +19,8 @@
 				'endDate' => $row['endDate'],
 				'description' => $row['description'],
 				'type' => $row['type'],
-				'link' => $row['link']
+				'link' => $row['link'],
+				'link_img' => $row['link_img']
 			);
 		}
 	}
