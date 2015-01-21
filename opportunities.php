@@ -33,11 +33,16 @@
         <h1 class="title">Opportunities</h1>
         <hr>
 
+        <div class="btn-group" role="group" aria-label="...">
+         <button type="button" class="btn btn-default" onclick="showAll()">All</button>
+         <button type="button" class="btn btn-default" onclick="showIntern()">Internships</button>
+         <button type="button" class="btn btn-default" onclick="showSch()">Scholarships</button>
+        </div>
+        </br>
         <?php
-
-        
+            echo '</br>';
           for($counter=0;$counter<count($info);$counter++){
-            echo '<div class="opp-list">
+            echo '<div class="opp-list '.$info[$counter][type].'">
                   <div class="panel-heading" role="tab" id="heading'.$counter.'">
                   <h3 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$counter.'" aria-expanded="true" aria-controls="collapseOne">';
@@ -61,5 +66,22 @@
   </div>
   <!-- =======================================End Container ============================================-->
   </body>
+
+  <script type="text/javascript">
+    function showAll(){
+      $(".Internship").show();
+      $(".Scholarship").show();
+    }
+
+    function showIntern(){
+      $(".Scholarship").hide();
+      $(".Internship").show();
+    }
+
+    function showSch(){
+      $(".Scholarship").show();
+      $(".Internship").hide();
+    }
+  </script>
 
 </html>
