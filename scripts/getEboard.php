@@ -1,7 +1,7 @@
 <?php
 	include 'connect.php';
 
-	$sql="SELECT `user`.userID, firstName, lastName, email, major, gradDate, position, link FROM `eboard`, `user` WHERE `user`.userID = `eboard`.userID;";
+	$sql="SELECT `user`.userID, firstName, lastName, email, major, gradDate, position, link, linkedIn FROM `eboard`, `user` WHERE `user`.userID = `eboard`.userID;";
 
 	$dbquery = mysqli_query($dbConnect,$sql);
 
@@ -20,7 +20,8 @@
 				'email' => $row['email'],
 				'major' => $row['major'],
 				'position' => $row['position'],
-				'link'  => $row['link']
+				'link'  => $row['link'],
+				'linkedIn' => $row['linkedIn']
 			);
 		}
 	}
