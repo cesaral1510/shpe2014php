@@ -48,8 +48,8 @@
     
       <div class="well">
         <div> 
-            <h1 class="titles"><center>Testimonials</center></h1>
-            <hr>
+            <h1 class="titles color-testimonial">Testimonials</h1>
+            
             <div id="leftColumn">
               <?php
                 foreach($leftTests as $lefty){

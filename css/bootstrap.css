@@ -941,8 +941,8 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
-  width: auto;
+  width: 1000px;
+  height: 500px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -2060,7 +2060,7 @@ pre code {
     margin-left: 16.66666667%;
   }
   .col-lg-offset-1 {
-    margin-left: 8.33333333%;
+    margin-left: 2.333333%;
   }
   .col-lg-offset-0 {
     margin-left: 0;
@@ -6418,6 +6418,19 @@ font-size: 21px;
   color: #0e90ff;
 }
 
+
+/* CSS for Opportunities Page */
+.opp-list{
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.opp-body{
+  background-color: #dfdfdf;
+}
+
 #socialiconsbox {
 margin: 10px 0;
 }
@@ -6440,6 +6453,12 @@ box-shadow: 0px 2px 9px #000;
 
 
 }
+.instagram{
+ background: #517fa4;
+ padding:10px 21px; 
+box-shadow: 0px 2px 9px #000;
+
+}
 .twitter { 
   background:#00ACED; 
   padding:10px 21px;
@@ -6453,3 +6472,6 @@ box-shadow: 0px 2px 9px #000;
 .linkedin { background:#2C80AE; padding: 10px 15px; box-shadow: 0px 2px 9px #000; }
 
 /*# sourceMappingURL=bootstrap.css.map */
+.c{
+  
+}
