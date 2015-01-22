@@ -1,3 +1,127 @@
+<<<<<<< HEAD
+#mainContent {
+	width:980;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+.titles{
+	color:#005F86;
+}
+/* CSS for Opportunities Page */
+.opp-list{
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.opp-body{
+  background-color: #eaeaea;
+}
+
+.title{
+	color:#005e8e;
+}
+
+.well{
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+	overflow:auto;
+}
+
+/* CSS for Gala Page */
+
+.shadow-rectangle-box{
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 4px 4px 2px #888888;
+
+}
+
+.right{
+	border-left: solid;
+	margin-left: 5%;
+}
+
+.left{
+	margin-right: 10%;
+}
+#mainContent {
+	width:980;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+.titles{
+	color:#005F86;
+}
+
+/* CSS for Testimonials Page */
+
+#rightColumn {
+ 	width:50%;
+ 	float:right;
+ 	padding:15px 0px 15px 15px;
+}
+
+#leftColumn {
+	width:50%;
+	float:left;
+	border-right:blue solid 1px;
+	padding:15px 15px 15px 0px;
+}
+
+.testimonialHeader {
+	height:150px;
+	margin-bottom:10px;
+}
+
+.testImage {
+	float:left;
+	border-radius:50%;
+	height:150px;
+	width:150px;
+	margin-left:10px;
+}
+
+.testName {
+	float:left;
+	margin:55px 0px 0px 10px;
+}
+
+.testBody {
+	width:100%;
+	margin-bottom:50px;
+	position:relative;
+}
+
+.testBody p {
+	position:relative;
+	z-index:2;
+}
+
+.startingQuote{
+	width:40px;
+	height:40px;
+	position:absolute;
+	top:-15px;
+	left:-5px;
+	opacity:.5;
+}
+
+.endingQuote {
+	width:40px;
+	height:40px;
+	position:absolute;
+	bottom:-10px;
+	right:-5px;
+	opacity:.5;
+}
+=======
 /* CSS for Opportunities Page */
 .opp-list{
   position: relative;
@@ -23,21 +147,18 @@
 /* CSS for Gala Page */
 
 .shadow-rectangle-box{
-	border-style: solid;
+	border: 1px solid black;
 	border-radius: 5px 5px 5px 5px;
-	box-shadow: 4px 4px 2px #888888;
+	box-shadow: 0px 2px 2px 1px #888888;
 
 }
 
-.right{
-	border-left: solid;
-	margin-left: 5%;
+.divider{
+	max-height: 80px;
+	margin-top: 3%;
+	margin-left: 10%;
+	float:left;
 }
-
-.left{
-	margin-right: 10%;
-}
-
 /* CSS for History Page */
 
 #mainContent {
@@ -50,3 +171,6 @@
 .titles{
 	color:#005F86;
 }
+
+}
+>>>>>>> 7c250eba234050b70ded907355ee4be894ca7dcb
