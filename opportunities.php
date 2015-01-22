@@ -43,14 +43,12 @@
             echo '</br>';
           for($counter=0;$counter<count($info);$counter++){
             echo '<div class="opp-list '.$info[$counter][type].'">
-                  <div class="panel-heading" role="tab" id="heading'.$counter.'">
-                  <h3 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$counter.'" aria-expanded="true" aria-controls="collapseOne">';
-            echo '<img src="#" alt="Pic Not Found">';
+                  <div class="panel-heading" role="tab" id="heading'.$counter.'">';
+            echo '<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$counter.'" aria-controls="collapse'.$counter.'">';
+            echo '<img src="'.$info[$counter][link_img].'" alt="Pic Not Found">';
             echo '</a>
-                  </h3>
                   </div>
-                  <div id="collapse'.$counter.'" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="'.$counter.'">
+                  <div id="collapse'.$counter.'" class="panel-collapse collapse role="tabpanel" aria-labelledby="'.$counter.'">
                   <div class="panel-body opp-body">';
             echo '<b><h4>'.$info[$counter][title].'</h4></b>';
             echo '<p>'.$info[$counter][description].'</br></br>';
@@ -82,6 +80,8 @@
       $(".Scholarship").show();
       $(".Internship").hide();
     }
+
+    $("#collapse0").addClass("in");
   </script>
 
 </html>
