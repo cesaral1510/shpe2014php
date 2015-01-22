@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #mainContent {
 	width:980;
 	margin:auto;
@@ -8,6 +8,8 @@
 
 .titles{
 	color:#005F86;
+	font-size: 28px;
+
 }
 /* CSS for Opportunities Page */
 .opp-list{
@@ -65,14 +67,14 @@
 #rightColumn {
  	width:50%;
  	float:right;
- 	padding:15px 0px 15px 15px;
+ 	padding:50px 0px 15px 15px;
 }
 
 #leftColumn {
 	width:50%;
 	float:left;
-	border-right:blue solid 1px;
-	padding:15px 15px 15px 0px;
+	border-right:#0669b2 solid 1px;
+	padding:50px 15px 15px 0px;
 }
 
 .testimonialHeader {
@@ -121,7 +123,7 @@
 	right:-5px;
 	opacity:.5;
 }
-=======
+
 /* CSS for Opportunities Page */
 .opp-list{
   position: relative;
@@ -154,7 +156,7 @@
 }
 
 .divider{
-	max-height: 80px;
+	max-height: 117px;
 	margin-top: 3%;
 	margin-left: 10%;
 	float:left;
@@ -170,7 +172,22 @@
 
 .titles{
 	color:#005F86;
+	margin-top:30px; 
+	margin-bottom:36px; 
 }
-
+.gray-background{
+	background: #f8f8f8;
+	border-radius: 10px;
+	text-align: justify;
 }
->>>>>>> 7c250eba234050b70ded907355ee4be894ca7dcb
+.color-testimonial{
+	color: #0F98FC;
+}
+.padding{
+	margin-left: 22.338px;
+	padding-left: 59px;
+}
+.twitter-timeline{
+	margin-left: 30px;
+	width: 500px;
+}

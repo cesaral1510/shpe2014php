@@ -29,10 +29,11 @@
         </center></p>
 
         <div class="container-fluid">
-          <h3 class="col-lg-5 col-lg-offset-1">Faculty/Staff</h3>
-          <h3 class="col-lg-5">Profressionals</h3>
+          <h3 class="col-lg-5 col-lg-offset-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faculty/Staff</h3>
+          <h3 class="col-lg-5 padding" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Professional</h3>
           <div class="row">
-            <div class="shadow-rectangle-box col-lg-4 col-lg-offset-1">
+            <div class="shadow-rectangle-box col-lg-5 col-lg-offset-1" style="
+  margin-left: 22.338;">
               <div class="col-lg-5">
                 <h3>Individual</h3>
                 <h3 class="titles">$60</h3>
@@ -44,48 +45,48 @@
               </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="shadow-rectangle-box col-lg-5">
+            <div class="shadow-rectangle-box col-lg-5" style="margin-left: 24;">
               <div class="col-lg-5">
                 <h3>Professional</h3>
                 <h3 class="titles">$60</h3>
               </div>
               <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
               <div class="col-lg-5">
-                <h3>Corporate Table</h3>
+                <h3>Table</h3>
                 <h3 class="titles">$600</h3>
               </div>
             </div>
           </div>
           <!-- =======================================End Row ============================================-->
           <div class="row">
-            <h3 class="col-lg-5 col-lg-offset-1">Students/Guests</h3>
-            <h3 class="col-lg-5">SHPE Jr.</h3>
+            <h3 class="col-lg-5 col-lg-offset-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Students/Guests</h3>
+            <h3 class="col-lg-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHPE Jr.</h3>
           </div>
 
           <div class="">
-            <div class="shadow-rectangle-box col-lg-4 col-lg-offset-1">
+            <div class="shadow-rectangle-box col-lg-5 col-lg-offset-1">
               <div class="col-lg-5">
                 <h3>EarlyBird</h3>
-                <h3 class="titles">$60</h3>
+                <h3 class="titles">$20</h3>
               </div>
               <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
               <div class="col-lg-5">
                 <h3>Standard</h3>
-                <h3 class="titles">$600</h3>
+                <h3 class="titles">$30</h3>
               </div>
             </div>
 
             <div class="col-lg-1"></div>
 
-            <div class="shadow-rectangle-box col-lg-4">
+            <div class="shadow-rectangle-box col-lg-5"  style="margin-left: 24;">
               <div class="col-lg-5">
                 <h3>Students</h3>
-                <h3 class="titles">$60</h3>
+                <h3 class="titles">FREE</h3>
               </div>
               <img class="divider" src="img/vertical_bar.jpg" alt="Responsive Image">
               <div class="col-lg-5">
                 <h3>Parents</h3>
-                <h3 class="titles">$600</h3>
+                <h3 class="titles">$30</h3>
               </div>
             </div>
           </div>

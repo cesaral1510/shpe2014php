@@ -10,42 +10,22 @@ echo '<nav class="navbar navbar-default" role="navigation">
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-      <img alt ="Brand" src = "http://web.njit.edu/~fgl4/shpelogoshit.png"></a>
+      <img src ="img/shpelogo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-         
-         <li><a href="opportunities.php">Opportunity<span class="sr-only"></span></a></li>
-        <li class="dropdown">
-          <a href="opportunities.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">E-Board <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="http://web.njit.edu/~cal23/shpe2014/eboard.php">Current E-Board</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Advisors</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Calendar</a></li>
-            <li><a href="#">Past Events</a></li>
-            <li><a href="#">Future Events</a></li>
-            <li><a href="#">Gala</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Contact Form <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Gallery <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Mission & Vision</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Testimonials</a></li>
-          </ul>
-        </li>
+        <li ><a href="home.php">Home <span class="sr-only"></span></a></li>
+        <li><a href="history.php">About us <span class="sr-only"></span></a></li>
+        <li ><a href="eboard.php">Eboard/Advisors <span class="sr-only"></span></a></li>
+        <li ><a href="testimonials.php">Testimonials <span class="sr-only"></span></a></li>
+        <li ><a href="events.php">Events <span class="sr-only"></span></a></li>
+        <li ><a href="gala.php">Gala <span class="sr-only"></span></a></li>
+
+        <li ><a href="opportunities.php">Opportunities <span class="sr-only"></span></a></li>
+
+        
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
