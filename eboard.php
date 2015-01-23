@@ -3,17 +3,19 @@
 <head>
 <?php
     $ch = curl_init();
-    curl_setopt( $ch, CURLOPT_URL, 'http://web.njit.edu/~cal23/shpe2014/scripts/getEboard.php');
+    curl_setopt( $ch, CURLOPT_URL, 'https://web.njit.edu/~cal23/shpe2014/scripts/getEboard.php');
     curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );
     curl_setopt( $ch, CURLOPT_POST, 1 );
     curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, false );
     $output = curl_exec( $ch );
     $errmsg = curl_error( $ch );
     $info=json_decode($output,true);
+    
     curl_close( $ch );
 
 ?>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
