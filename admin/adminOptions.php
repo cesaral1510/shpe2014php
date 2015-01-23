@@ -7,10 +7,6 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="styles/bootstrap-timepicker.min.css" />
-		<script type="text/javascript" src="js/bootstrap-timepicker.min.js"></script>
-		<script src="js/bootstrap-formhelpers.min.js"></script>
-		<link href="styles/bootstrap-form-helpers.min.css" rel="stylesheet" media="screen">
 	    <!--[if lt IE 9]>
 	      <script src="js/html5shiv.js"></script>
 	      <script src="js/respond.min.js"></script>
@@ -111,12 +107,12 @@
 	<!-- Large modal -->
 	<center>
 	<div class="btn-group btn-group-lg" role="group">
-		<button type="button" class="btn btn-primary btn" data-toggle="modal" data-target="#1">Add Pictures</button>
+		<button type="button" class="btn btn-primary btn" data-toggle="modal" data-target="#1">Placeholder</button>
 	</div>
 	<div id="1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-lg">
 		<div class="modal-content">
-			<?php include "Partials/addPicture.php"; ?>
+			<!-- < ?php include "Partials/addPicture.php"; ?>-->
 		</div>
 	  </div>
 	</div>
@@ -134,32 +130,32 @@
 
 	<!-- Large modal -->
 	<div class="btn-group btn-group-lg" role="group">	
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">Change Hours</button>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">Placeholder</button>
 	</div>
 	<div id="3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<?php include "Partials/changeHours.php"; ?>
+				<!--< ?php include "Partials/changeHours.php"; ?>-->
 			</div>
 		</div>
 	</div>
 	<div class="btn-group btn-group-lg" role="group">	
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">Update Contact Info</button>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">Placeholder</button>
 	</div>
 	<div id="4" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<?php include "Partials/updateContactInfo.php"; ?>
+				<!--< ?php include "Partials/updateContactInfo.php"; ?>-->
 			</div>
 		</div>
 	</div>
 	<div class="btn-group btn-group-lg" role="group">	
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">Update Offerings</button>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">Placeholder</button>
 	</div>
 	<div id="5" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<?php include "Partials/updateOfferings.php"; ?>
+				<!--< ?php include "Partials/updateOfferings.php"; ?>-->
 			</div>
 		</div>
 	</div>
@@ -171,7 +167,7 @@
 		<div id="3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<?php include "Partials/manageUsers.php"; ?>
+				<!--< ?php include "Partials/manageUsers.php"; ?>-->
 			</div>
 		  </div>
 		</div>

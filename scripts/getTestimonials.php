@@ -1,7 +1,7 @@
 <?php
 	include 'connect.php';
 
-	$sql="SELECT * FROM `testimonials`;";
+	$sql="SELECT * FROM `testimonials` ORDER BY testID DESC;";
 
 	$dbquery = mysqli_query($dbConnect,$sql);	
 

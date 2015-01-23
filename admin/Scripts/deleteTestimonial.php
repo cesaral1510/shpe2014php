@@ -1,20 +1,17 @@
 <?php
 	session_start();
 	if(isset($_SESSION['Logged'])){
-		if(isset($_POST['ID']) && !empty($_POST['ID'])) {
+		if(isset($_POST['testID']) && !empty($_POST['testID'])) {
 			require 'connect.php';
-			$ID = $_POST['ID'];
-			$Link = $_POST['Link'];
-			$unlink = "../" . $Link;
-			$dbcheck = "DELETE FROM `image` WHERE ID=$ID;";
+			$testID = $_POST['testID'];
+			$dbcheck = "DELETE FROM `testimonials` WHERE `testID`=$testID;";
 			$dbquery = mysqli_query($dbConnect,$dbcheck);
 			if(!$dbquery) {
-				unlink($unlink);
 				echo 'could not run query'.mysqli_error($dbConnect);
 				exit;
 			}
 			else{
-				echo 'Successful!';
+				echo 'Success';
 			}
 		}
 		else{
