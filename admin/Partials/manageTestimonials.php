@@ -254,11 +254,14 @@
 					document.getElementById(firstNameText).innerHTML = form.firstName.value;
 					document.getElementById(lastNameText).innerHTML = form.lastName.value;
 					$(".body").attr('disabled','disabled');
-					$("body").prepend('<div class="alert alert-success alert-dismissible" role="alert" style="z-index:100;float:right;clear:both; margin:10px 10px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Success!</strong> Testimonial information has been updated.</div>');
+					createAutoClosingAlert("success", "<strong>Success!</strong> Testimonial has been saved.", 3500);
 				}else{
-					$("body").prepend('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Failed!</strong> Testimonial information has not been updated. Contact your webmaster to resolve this issue.</div>');
+					createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been saved. Contact your webmaster to resolve this issue.", 3500);
 				}
-			}
+			},
+		 error: function() {
+			createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been saved. Contact your webmaster to resolve this issue.", 3500);
+		 }
 		}); 
 	}
 	function editTestimonial(form){
@@ -288,12 +291,14 @@
 						var par = document.getElementById("Testimonials");
 						var child = document.getElementById(childID);
 						par.removeChild(child);
-						$("body").prepend('<div class="alert alert-success alert-dismissible" role="alert" style="z-index:100;float:right;clear:both; margin:10px 10px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Success!</strong> Testimonial has been deleted.</div>');
+						createAutoClosingAlert("success", "<strong>Success!</strong> Testimonial has been deleated.", 3500);
 					}else{
-						$("body").prepend('<div class="alert alert-danger alert-dismissible" role="alert"  style="z-index:100;float:right;clear:both; margin:10px 10px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Failed!</strong> Testimonial information has not been deleted. Contact your webmaster to resolve this issue.</div>');
-
+						createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been deleted. Contact your webmaster to resolve this issue.", 3500);
 					}
-				}
+			 },
+			 error: function() {
+				createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been deleted. Contact your webmaster to resolve this issue.", 3500);
+			 }
 			}); 
 		} 
 	}
@@ -322,16 +327,15 @@
 					var child = document.createElement("tr");
 					child.setAttribute('id','tr'+newTestID);
 					child.setAttribute('class', 'Gallery');
-					child.innerHTML ='<form id="'+newTestID+'" action="JavaScript:manageTestimonial(this.form)" method="GET"><input type="hidden" name="link_img" value="'+newLinkImg+'"><td><img style="max-width:120px;" src="../'+newLinkImg+'"></td><td><textarea rows="1" class="form-control captionEdit" id="firstName" name="firstName" style="height:100%;" >'+form.firstName.value+'</textarea><span class="captionDisplay" id="firstNameText'+newTestID+'">'+form.firstName.value+'</span></td><td><textarea rows="1" class="form-control captionEdit" id="lastName" name="lastName" style="height:100%;" >'+form.lastName.value+'</textarea><span class="captionDisplay" id="lastNameText'+newTestID+'">'+form.lastName.value+'</span></td><td><textarea class="form-control body" id="body" name="body" style="height:100%;" disabled>'+form.body.value+'</textarea></td><td><div class="btn-group btn-group-lg" role="group"><button type="button" onClick="manageTestimonial(this.form)" id="save'+newTestID+'" name="save" class="btn btn-default save"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span></button><button type="button" onClick="manageTestimonial(this.form)" id="edit'+newTestID+'" name="edit" class="btn btn-default edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button><button type="button" onClick="manageTestimonial(this.form)" id="delete'+newTestID+'" name="delete" class="btn btn-default delete"><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span></button></div></td></form>';
+					child.innerHTML ='<td colspan="5"><form id="'+newTestID+'" action="JavaScript:manageTestimonial(this.form)" method="GET"><div class="col-md-2" style="padding-left:0px;"><input type="hidden" name="link_img" value="'+newLinkImg+'"><img style="max-width:120px;" src="../'+newLinkImg+'"></div><div class="col-md-2" style="padding-left:4px;"><textarea rows="1" class="form-control captionEdit" id="firstName" name="firstName" style="height:100%;" >'+form.firstName.value+'</textarea><span class="captionDisplay" id="firstNameText'+newTestID+'">'+form.firstName.value+'</span></div><div class="col-md-2" style="padding-left:10px;"><textarea rows="1" class="form-control captionEdit" id="lastName" name="lastName" style="height:100%;" >'+form.lastName.value+'</textarea><span class="captionDisplay" id="lastNameText'+newTestID+'">'+form.lastName.value+'</span></div><div class="col-md-4" style="padding-left:11px;padding-right:2px;"><textarea class="form-control body" id="body" name="body" style="height:100%;" disabled>'+form.body.value+'</textarea></div><div class="col-md-2"><div class="btn-group btn-group-lg" role="group"><button type="button" onClick="manageTestimonial(this.form)" id="save'+newTestID+'" name="save" class="btn btn-default save"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span></button><button type="button" onClick="manageTestimonial(this.form)" id="edit'+newTestID+'" name="edit" class="btn btn-default edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button><button type="button" onClick="manageTestimonial(this.form)" id="delete'+newTestID+'" name="delete" class="btn btn-default delete"><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span></button></div></div></form></td>';
     				sib.parentNode.insertBefore(child, sib.nextSibling);
     				resetModal6();
-					$("body").prepend('<div class="alert alert-success alert-dismissible" role="alert" style="z-index:100;float:right;clear:both; margin:10px 10px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Success!</strong> Testimonial has been deleted.</div>');
+					createAutoClosingAlert("success", "<strong>Success!</strong> Testimonial has been added.", 3500);
 				}else{
-					$("body").prepend('<div class="alert alert-danger alert-dismissible" role="alert"  style="z-index:100;float:right;clear:both; margin:10px 10px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Failed!</strong> Testimonial information has not been deleted. Contact your webmaster to resolve this issue.</div>');
-
+					createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been added. Contact your webmaster to resolve this issue.", 3500);
 				}
 			  }else {
-				$("body").prepend('<div class="alert alert-danger alert-dismissible" role="alert"  style="z-index:100;float:right;clear:both; margin:10px 10px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><strong>Failed!</strong> Testimonial information has not been deleted. Contact your webmaster to resolve this issue.</div>');
+				createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been added. Contact your webmaster to resolve this issue.", 3500);
 			  }
 			};
 			xhr.send(formData);

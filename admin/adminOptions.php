@@ -174,6 +174,16 @@
 
 	</center>
   </body>
+  <script>
+  	function createAutoClosingAlert(selector, text, delay) {
+  		var alert = $("body").prepend('<div class="alert alert-'+selector+' alert-dismissible flash fade in" role="alert" style="position:relative;z-index:2000;float:right;clear:both; margin:10px 15px 0 0; width:300px;"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>'+text+'</div>');
+  		window.setTimeout(function() {
+		  $(".flash").fadeTo(500, 0).slideUp(500, function(){
+		      $(this).remove();
+		  });
+		}, delay);
+	}
+  </script>
 	<?php
 	}
 	else{
