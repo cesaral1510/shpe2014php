@@ -30,7 +30,7 @@
   	<?php include 'navbar.php';?>
       <!-- =======================================Start Accordian ============================================-->
       <div class="well list-group" id="accordion" role="tablist" aria-multiselectable="true">
-        <h1 class="title">Opportunities</h1>
+        <h1 class="title">Opportunities <small>click on image to expand</small></h1>
         <hr>
 
         <div class="btn-group" role="group" aria-label="...">
