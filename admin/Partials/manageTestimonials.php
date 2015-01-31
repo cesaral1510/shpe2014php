@@ -5,6 +5,7 @@
 	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 	<h4 class="modal-title">Manage Testimonials</h4>
 </div>
+<div class="modal-body">
 <?php
 	/* Authorize the user*/
 	/* $ch = curl_init("https://shpe.njit.edu/scripts/getTestimonials.php");
@@ -201,6 +202,7 @@
 		echo '</tbody></table>';
 	}
 ?>
+</div>
 <div class="modal-footer">
 	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 </div>
@@ -211,9 +213,9 @@
 	$("#imagePreviewWrapper").hide(); 
 	$("#discardTest").hide();
 	$('#2').on('hide.bs.modal', function (e) {
-  		resetModal6();
-	})
-	function resetModal6(){
+  		resetModal2();
+	});
+	function resetModal2(){
 		$(".captionEdit").hide();
 		$(".save").hide();	
 		$(".delete").show();	
@@ -329,7 +331,7 @@
 					child.setAttribute('class', 'Gallery');
 					child.innerHTML ='<td colspan="5"><form id="'+newTestID+'" action="JavaScript:manageTestimonial(this.form)" method="GET"><div class="col-md-2" style="padding-left:0px;"><input type="hidden" name="link_img" value="'+newLinkImg+'"><img style="max-width:120px;" src="../'+newLinkImg+'"></div><div class="col-md-2" style="padding-left:4px;"><textarea rows="1" class="form-control captionEdit" id="firstName" name="firstName" style="height:100%;" >'+form.firstName.value+'</textarea><span class="captionDisplay" id="firstNameText'+newTestID+'">'+form.firstName.value+'</span></div><div class="col-md-2" style="padding-left:10px;"><textarea rows="1" class="form-control captionEdit" id="lastName" name="lastName" style="height:100%;" >'+form.lastName.value+'</textarea><span class="captionDisplay" id="lastNameText'+newTestID+'">'+form.lastName.value+'</span></div><div class="col-md-4" style="padding-left:11px;padding-right:2px;"><textarea class="form-control body" id="body" name="body" style="height:100%;" disabled>'+form.body.value+'</textarea></div><div class="col-md-2"><div class="btn-group btn-group-lg" role="group"><button type="button" onClick="manageTestimonial(this.form)" id="save'+newTestID+'" name="save" class="btn btn-default save"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span></button><button type="button" onClick="manageTestimonial(this.form)" id="edit'+newTestID+'" name="edit" class="btn btn-default edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button><button type="button" onClick="manageTestimonial(this.form)" id="delete'+newTestID+'" name="delete" class="btn btn-default delete"><span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span></button></div></div></form></td>';
     				sib.parentNode.insertBefore(child, sib.nextSibling);
-    				resetModal6();
+    				resetModal2();
 					createAutoClosingAlert("success", "<strong>Success!</strong> Testimonial has been added.", 3500);
 				}else{
 					createAutoClosingAlert("danger", "<strong>Failed!</strong> Testimonial information has not been added. Contact your webmaster to resolve this issue.", 3500);
